@@ -4,6 +4,7 @@ import {AdminLayoutComponent} from './layout/admin-layout/admin-layout.component
 import {UserLayoutComponent} from './layout/user-layout/user-layout.component';
 import { AuthLayoutComponent } from './layout/auth-layout/auth-layout.component';
 import { BlankLayoutComponent } from './layout/blank-layout/blank-layout.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { BlankLayoutComponent } from './layout/blank-layout/blank-layout.compone
   ],
   imports: [
     CommonModule,
-    
+    RouterModule
   ]
 })
 export class LayoutModule { }
